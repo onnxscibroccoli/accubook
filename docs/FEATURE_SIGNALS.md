@@ -2,7 +2,7 @@
 
 ## Current state
 
-**Locally verified:** The Python analyzer has no third-party dependencies and has deterministic unit tests. **CI verification:** Pending a successful Actions run on the exact commit. **Production-market validation:** Not established. This is a research pipeline, not a product analytics SDK or an app feature.
+**CI verified:** The Python analyzer uses only the standard library, and the first pull-request Actions run completed successfully (run 42427568724 at commit e5a3f1b; later commits must pass their own checks). **Termux/device validation:** Not run. **Production-market validation:** Not established. This is a research pipeline, not a product analytics SDK or an app feature.
 
 Accubook operates completely offline at runtime. GitHub Actions is an **optional development-time control plane**; GitHub service interruptions do not affect device data or app functionality. No local Accubook annotation, contact, customer, job, photo, signature, or workspace file is transmitted to GitHub.
 
