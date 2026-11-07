@@ -144,11 +144,11 @@ def analyze(records, experiments=None):
         fingerprint = hashlib.sha256(normalize(text).encode("utf-8")).digest()
         source_id = (source, ident)
         # Duplicate public/reposted content must not manufacture diversity.
-        if source_id in seen_ids or fingerprint in seen_text:
+        if source_id in seen_ids or (origin, fingerprint) in seen_text:
             summary["duplicates"] += 1
             continue
         seen_ids.add(source_id)
-        seen_text.add(fingerprint)
+        seen_text.add((origin, fingerprint))
         summary["unique_rows"] += 1
         features = classify(text)
         if not features:
