@@ -23,6 +23,7 @@ Designed so the person on the truck and the person in the office can do their wo
 - Optional modules add CSVs or columns (vehicles, measurements, inventory layers, recurring services).
 - All operations offline. Export anytime.
 - Python core for data layer (Termux/Android friendly). UI can be any client that reads the workspace.
+- Development-time GitHub Actions research never uploads local customer data, annotations, contacts, or device telemetry.
 
 ## Getting Started
 
@@ -38,6 +39,20 @@ See `docs/DESIGN.md` for full design from AccuLube, Atlantic Mechanical, Associa
 2. Change-order + signature capture on the job.
 3. Local pricebook with type-ahead into invoice lines.
 4. Feature-flagged inventory and recurring due dates.
+
+## Feature-Signal Research (GitHub Actions)
+
+This repository includes an **advisory, read-only** feature-discovery pipeline. A weekly/manual GitHub Actions run analyzes explicitly labeled **public** GitHub issues and publishes only aggregate counts; pull requests run synthetic regression tests. No private in-app feedback is transferred. This workflow never automatically writes code, opens issues, merges PRs, or claims that feedback frequency proves utility.
+
+See [the feature-signal engineering specification](docs/FEATURE_SIGNALS.md) for the source schema, reproducible commands, research gates, statistics, and required human audit.
+
+For an immediate local test:
+
+    python3 tests/test_core.py
+    python3 -m unittest discover -s tests -p "test_feature_signals.py" -v
+    python3 tools/feature_signals.py --input research/synthetic_feedback.jsonl --out /tmp/accubook-research.json
+
+**Implementation boundary:** This repository currently contains the Python workspace foundation, schemas, and research tooling. The Android interface and its device-specific UI regressions are not implemented here; do not mistake pipeline tests for a verified APK.
 
 ## License
 
