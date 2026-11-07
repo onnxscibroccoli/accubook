@@ -1,0 +1,22 @@
+{
+  "enable_crews": false,
+  "enable_inventory": false,
+  "enable_recurring_services": true,
+  "enable_change_orders": true,
+  "enable_signatures": true,
+  "enable_vehicles": false,
+  "enable_measurements": false,
+  "enable_pricebook": true,
+  "field_order": [
+    "customer",
+    "property",
+    "job_details",
+    "lines",
+    "photos",
+    "signature",
+    "change_orders"
+  ],
+  "custom_fields": {},
+  "workspace_name": "Accubook Workspace",
+  "onboarding_completed": false
+}
