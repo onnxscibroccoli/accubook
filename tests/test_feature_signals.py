@@ -38,6 +38,18 @@ class SignalTests(unittest.TestCase):
         self.assertEqual(by_name["job_customization"]["public_mentions"], 0)
         self.assertFalse(output["automatic_build_authorized"])
 
+    def test_synthetic_cannot_mask_public_evidence(self):
+        note = "Bulk import contacts should be a single step"
+        rows = [
+            {"id": "fake", "source": "synthetic", "origin": "synthetic",
+             "cohort": "general", "text": note},
+            public_record("real", note, "field"),
+        ]
+        report = analyze(rows)
+        item = next(x for x in report["features"] if x["feature"] == "contact_import")
+        self.assertEqual(item["public_mentions"], 1)
+        self.assertEqual(item["synthetic_mentions"], 1)
+
     def test_diversity_gate_not_auto_build(self):
         rows = [
             public_record(i, f"Need bulk import contacts without selecting each section {i}",
