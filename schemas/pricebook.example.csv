@@ -1,0 +1,5 @@
+id,item,unit,cost,sell_price,trade_tag,notes
+1,5W-30 Synthetic Oil,quart,4.50,8.00,auto,Standard oil change
+2,Oil Filter,each,3.00,7.00,auto,
+3,Gutter Cleaning,linear_ft,0.00,1.50,gutters,Per foot
+4,Labor - General,hour,0.00,85.00,general,

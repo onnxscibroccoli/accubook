@@ -1,0 +1,2 @@
+id,customer_id,property_id,title,status,due_date,paid,paid_date,color,notes,created,updated,next_service_due,recurring_interval_months
+1,1,,Oil Change - 2018 F150,scheduled,2026-11-15,false,,blue,,2026-11-07,2026-11-07,,6
