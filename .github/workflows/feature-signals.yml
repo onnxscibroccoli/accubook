@@ -1,0 +1,75 @@
+name: Accubook feature-signal research
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/feature-signals.yml"
+      - "tools/feature_signals.py"
+      - "tools/import_public_issues.py"
+      - "tests/test_feature_signals.py"
+      - "tests/test_core.py"
+      - "research/**"
+      - "docs/FEATURE_SIGNALS.md"
+      - "README.md"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8 * * 1"
+
+# Observes only explicitly labeled PUBLIC GitHub issues.
+# Never accesses private device annotations, workspace CSVs, or contacts.
+permissions:
+  contents: read
+  issues: read
+
+concurrency:
+  group: accubook-feature-signals-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  research:
+    name: Deterministic research and regression tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source without persistent credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Verify Python core and feature-signal tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          python3 -m unittest discover -s tests -p "test_feature_signals.py" -v
+          python3 tests/test_core.py
+
+      - name: Import explicitly labeled public GitHub issues
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 tools/import_public_issues.py --repo "$REPOSITORY" --out "$RUNNER_TEMP/public-issues.jsonl"
+
+      - name: Generate research summary (aggregate only)
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          mkdir -p generated
+          if [ "$EVENT_NAME" = "schedule" ] || [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            INPUT="$RUNNER_TEMP/public-issues.jsonl"
+          else
+            INPUT="research/synthetic_feedback.jsonl"
+          fi
+          python3 tools/feature_signals.py --input "$INPUT" --out generated/feature-signal-report.json --markdown-out generated/feature-signal-report.md
+          cat generated/feature-signal-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Preserve aggregate report for independent review
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: feature-signal-aggregates
+          path: |
+            generated/feature-signal-report.json
+            generated/feature-signal-report.md
+          if-no-files-found: error
+          retention-days: 7
