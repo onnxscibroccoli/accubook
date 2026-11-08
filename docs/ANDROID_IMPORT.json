@@ -1,0 +1,457 @@
+{
+  "source_repository": "onnxscibroccoli/broccoli-core",
+  "source_commit": "4dfe34b1ba200d3ef0d71c2400ab8a81fca8ecf8",
+  "source_pr": 96,
+  "files": [
+    {
+      "source": "experiments/accubook/android/MODULAR_ARCHITECTURE.md",
+      "destination": "android/MODULAR_ARCHITECTURE.md",
+      "git_blob": "c651c8edc1aa3aa72d9fcb53f19496476a903de3",
+      "sha256": "366e76d5abef2adcd953d3e3a451766cfcc8986ea6f9a8380ee883287f4dd7e7"
+    },
+    {
+      "source": "experiments/accubook/android/PRODUCT_REQUIREMENTS.md",
+      "destination": "android/PRODUCT_REQUIREMENTS.md",
+      "git_blob": "5641315ebba9f8282cb067ce4379093689871524",
+      "sha256": "0815131e07decf8422db66e281b1f14168d7f1cc77769981428d53de480a17d9"
+    },
+    {
+      "source": "experiments/accubook/android/README.md",
+      "destination": "android/README.md",
+      "git_blob": "582f758c9b64ec830f4f5f40e1f32fa0b7caf79c",
+      "sha256": "c81c898e749fe3b2a3869fe116a101cadeea3fd245d5890471fef24612ae2bdb"
+    },
+    {
+      "source": "experiments/accubook/android/SECURITY_ACCOUNTING_INTEGRATION.md",
+      "destination": "android/SECURITY_ACCOUNTING_INTEGRATION.md",
+      "git_blob": "7aa1d9218712b08e2697067ea3f4bc2c349d30e8",
+      "sha256": "e7ca469aff0d3e36fb0056c92c09965299251db8a0b629c2e00ad0e3edb6b990"
+    },
+    {
+      "source": "experiments/accubook/android/USER_GUIDE.md",
+      "destination": "android/USER_GUIDE.md",
+      "git_blob": "21dddbc06efa437a7fc99f6f2881bca89bfca246",
+      "sha256": "f52a86ec2df0b512f055dda54496b9ebfaae6e6dfbeff6c0780c85f31e8b1e82"
+    },
+    {
+      "source": "experiments/accubook/android/UX_V05_COMPETITIVE_REVIEW.md",
+      "destination": "android/UX_V05_COMPETITIVE_REVIEW.md",
+      "git_blob": "19de72cb54e2321be2eb45a4712492738b558100",
+      "sha256": "4e95cfbab37d214a1053f9c8919d63e4ed33ea5387bdfc359d9e5877d627f683"
+    },
+    {
+      "source": "experiments/accubook/android/app/build.gradle",
+      "destination": "android/app/build.gradle",
+      "git_blob": "fbd83ab9af1440a451ed8ced6f57d39d8084270f",
+      "sha256": "588f09efd51703a47ae8d1bf6d65d8462447b68655177de5b433da6404e0932e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/AndroidManifest.xml",
+      "destination": "android/app/src/main/AndroidManifest.xml",
+      "git_blob": "db496df9332061eb622f30bad91114cc0bf04fdb",
+      "sha256": "9ef8013edde1bcc8676703b957085138df0e949a76d60c015ccea20ab826bfca"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/AnnotationRecords.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/AnnotationRecords.java",
+      "git_blob": "4664b40b390eada483819c2fe28a1c44d628d649",
+      "sha256": "86dfb64a6b226a358346a55e1c1754cc86af74df93cb90268de4fd3eabcce186"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/AnnotationStore.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/AnnotationStore.java",
+      "git_blob": "4df79563f333fe56c834dd1fbc467befb2c94b8f",
+      "sha256": "612d6a4f8c912bb7ad3e29d0e904a98fe190e29f00bae727d06468f4abdaa84f"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/AnnotationUi.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/AnnotationUi.java",
+      "git_blob": "3573752cd95f6573a086d400a02db68b9ae40c1f",
+      "sha256": "5adbd4a758fe2709a58e75fcaa5727792cbada2068e3409328339e2fd3b2f61d"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/BackupArchive.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/BackupArchive.java",
+      "git_blob": "e0eb9a292b4c59390ed224c0796e408cc6f4225f",
+      "sha256": "876e87807d0eeb8d184ff9aa6d01e9323c5c292d3f811644fe44610ed11b46b0"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/BusinessReports.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/BusinessReports.java",
+      "git_blob": "6b83a8a4ed7eb1b5769b78ce83e3be4d55f1a9d2",
+      "sha256": "220d6197e894aaec73ce0995dc5de88b67dca8a1c92a2d9842e649e7fe2cfedb"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/BusinessSetupActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/BusinessSetupActivity.java",
+      "git_blob": "752544cc4da3045b7115bc373e69fef4990f8dfe",
+      "sha256": "376fa369a79f4544709c799620d78a0bb3ccfab6039b263f8a7c649474f9a1ef"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/BusinessSetupProfile.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/BusinessSetupProfile.java",
+      "git_blob": "1a202dd9f6ca0c5bb9b13cc165c495f6c145fb28",
+      "sha256": "43a6ff7f05568fcca6364a45fb963be99263491636b84863096ddf78653d6702"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/BusinessSetupStore.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/BusinessSetupStore.java",
+      "git_blob": "103543dac2319ab0aeae24d00205ab1cba6bf378",
+      "sha256": "3ea7d08e931a4e87be7e13315c94fd05053e600f57447085821a3d38827d8b4f"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/CalendarBridge.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/CalendarBridge.java",
+      "git_blob": "e64d7d30ac2a08028e9266c403803764f4bfb1f8",
+      "sha256": "867e2bed4f074792e5dcdd114f44f297aefb6fe7dc8f2a7f3e9adea4ab403b37"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/CatalogSuggestions.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/CatalogSuggestions.java",
+      "git_blob": "bb73f0681ddb81f63c4dc97c3c4a52ee33364f70",
+      "sha256": "b4f790587f0f7774d4b3ba78645879d92b82b96c0b1832430be5c5abfd8c4bda"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ChangeOrderProof.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ChangeOrderProof.java",
+      "git_blob": "162bda2fcbc43791c4e6932f1127f4df7dd3c6fc",
+      "sha256": "aa3d507379cf7a39c823f59fae5e1436372b8cf8c0d0a13ddf25f9cee7779c69"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ChangeOrders.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ChangeOrders.java",
+      "git_blob": "21648e521b08d66db841c6b31dee1116b6b93fc7",
+      "sha256": "c83b8d97b169ddd7f9d6f68610be7cc857402230379f7249ba998bc90df72535"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ColorSpectrumPicker.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ColorSpectrumPicker.java",
+      "git_blob": "c034b2acf169e14e8032d1e2d10131bd0711a44e",
+      "sha256": "68b69a1e8b794c0d343920caa9870fda53fb5d567b6c6bdc09316e566967c4d1"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ContactDirectory.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ContactDirectory.java",
+      "git_blob": "f83f8ca38d242fa80075c02d275c4aaed680ced2",
+      "sha256": "71713e26b1e58cbdedb46aee626055182f4b96ab549f9559a1568cd50172160e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/CrmWorkspace.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/CrmWorkspace.java",
+      "git_blob": "e6715535178699d81a80c68be475ae1c1097c23d",
+      "sha256": "1477ffee1f22c71a8b3666fce6d244c1de1e2de3271ff97e29031288ef7e6726"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/CsvCodec.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/CsvCodec.java",
+      "git_blob": "8f9f6f87afd3154d779d6178d2a4e64dc29c48cb",
+      "sha256": "90c56f108d57228af1f70d22745bfe783e7bbdfc8b3c57c5b2b1b45176e3c84a"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/DocumentActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/DocumentActivity.java",
+      "git_blob": "d4b5c0b08b089fdfa9a5b2226e4a7a6ea698edb0",
+      "sha256": "48992b87102d3c8712ea8c4e4d09dbfacdd103e876d9ac1c6597dd64354a2556"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/DocumentNumbers.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/DocumentNumbers.java",
+      "git_blob": "a85e540a8eedad644beee6301a78ec70cfbce698",
+      "sha256": "718f93e9aeccb9d536c85620161ddc3f8176852b6baa1bcf404e864d0c77a484"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/FeatureSettings.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/FeatureSettings.java",
+      "git_blob": "af795aee5b45972c46255d3aba119bac72d5f2a9",
+      "sha256": "9d8f7a19885d62e36939be3744d06be2eb070c2d5e9fdc2baed3bd86449e317a"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/FieldOrdering.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/FieldOrdering.java",
+      "git_blob": "552aa357f438adf962e9ea8d0d295ad7092ff8f3",
+      "sha256": "7dc2797a6d6d6bafb389d343ac6cf443cb774020ef162c5d3566a80583df7a0b"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/HelpTopics.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/HelpTopics.java",
+      "git_blob": "d7989f4820d828ad1598fee76b85ac3e071f0f2a",
+      "sha256": "bc092e7378f2167ab83d63c1c5a9dffab9eef2c916ebde445e2d159092a5db50"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/InventoryActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/InventoryActivity.java",
+      "git_blob": "0e41d334378aca811e95df7eea2fce44b900c28c",
+      "sha256": "95b3006bd0e407ed59c061deb715d3327cdd07bc1be4fceb6780e59c322e6a44"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/InventoryStore.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/InventoryStore.java",
+      "git_blob": "9896bbe0249e00ee4369887cd6a117f82008205c",
+      "sha256": "60f9b7d010bd9b431d9509c3fd47a7807a59c6e267d236c507fd0b56e00166c7"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/InvoiceHtml.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/InvoiceHtml.java",
+      "git_blob": "90f2512f811900bcb10644b5a191e3118095cd64",
+      "sha256": "ddf4e94e72bca8bb01649dc4b4fc9275a8043666f7f4df7d82222dc82c116479"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/InvoiceLineOrdering.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/InvoiceLineOrdering.java",
+      "git_blob": "1699af455146ad597f43fbacff97c6d055d9e3c9",
+      "sha256": "e3c4bd894c7097e6b0a11f0b61561d1a495c271a6e703417009fd04528aeeeeb"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/JobTemplates.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/JobTemplates.java",
+      "git_blob": "499df076f12e2eadc31743287b730943b141274f",
+      "sha256": "83121cc423aaa713c75b0916c7fdbbef42161095d93aca805226a7b5a3a11f4f"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/LegacyContactsCsv.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/LegacyContactsCsv.java",
+      "git_blob": "b1c4b14539690792e87b7e2381cd76f9e0993a06",
+      "sha256": "38da73fc8970ed7a4590fd290739e2f99abc871f062f9e5a79bbc92d1cd8665d"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/LegacyContactsImportActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/LegacyContactsImportActivity.java",
+      "git_blob": "acdcb032d2910d030c6a9cb281c064062de07921",
+      "sha256": "aeb3b0cfa65ce210832b8b30155352eb196011b2013bbc6f35a7548603bab976"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/MainActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/MainActivity.java",
+      "git_blob": "982f37c63b931946005205b8dcce039f53bfb0cf",
+      "sha256": "c9b90eb768038a5c8db42b11c158c75372225789ea13a01d46392d2214a41c0a"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/PhotoOrdering.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/PhotoOrdering.java",
+      "git_blob": "8680315f011572d3aed32e59a1d9267f202747e3",
+      "sha256": "431dce4f1571c21d185907ecbd85b31fd5915f32f6b6f8662a787a7491731637"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/PickupReminders.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/PickupReminders.java",
+      "git_blob": "8fba6d45b62d8450e3bed52018e40ca5ed4a2f9c",
+      "sha256": "c032a8a2e08b8020ba342f633572b9e72fa8d67aa0e1fae19087c6c3421276ea"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/PricingEngine.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/PricingEngine.java",
+      "git_blob": "4f6e5c5d8e6b230659426778a2901e0ab9768f48",
+      "sha256": "b61e2169947205a850ee785d6ce5226e055b627ead272f616023dd11e37eaa8d"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/QuickReportPdf.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/QuickReportPdf.java",
+      "git_blob": "ef700fe2a89282de25b4ad79743e3f68f7eba33c",
+      "sha256": "83647c9bebf394f4978a167bf5b47198d5b1271ebcebf403ddad658edcbc80ba"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/RecurringServices.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/RecurringServices.java",
+      "git_blob": "d441849d1630356b03b7c4aeae606335fdacf22d",
+      "sha256": "268fbe52ec4c6a7c7596c6777ef88f723fdb47a621c0c8e1effe7131af4b1c93"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ReportSelection.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ReportSelection.java",
+      "git_blob": "0cedc518bab6b5da89daab79235d4cacf34505d6",
+      "sha256": "77172d9a0795f9fc43500d63d81cad9a94ec0639347d7201f2639b56eb84e717"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/SearchTerms.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/SearchTerms.java",
+      "git_blob": "3e7bb5f0679c6074ced6b371cde6a0b3ffbef83b",
+      "sha256": "7219c30312de3f83439f3a97e59e2ab7202fbbf02a89e870df84ad32f77b3dd7"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/SecureArchive.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/SecureArchive.java",
+      "git_blob": "c03c9958bdcc5d74070df138fff2329de0fd0e94",
+      "sha256": "fde5f6a0e5b74fc5e5f87eecda8aa6a4bfa5cd7f7875306660e74d28e7918936"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ServiceDuePdf.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ServiceDuePdf.java",
+      "git_blob": "c9e6dcecebe982efd10674fc3b167e74dd741864",
+      "sha256": "1657972902be767c1cf2653c49474aed11ee12a626305715d776df7aaa5bfa5c"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/ServiceIntervals.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/ServiceIntervals.java",
+      "git_blob": "1173d867fd190ac2c252ed60a7f849a3599600e3",
+      "sha256": "11e24f58282d755cb0a0a1f40b938d6d9ef66b46b7ad612f560de4c9f72af7bc"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/SignaturePadView.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/SignaturePadView.java",
+      "git_blob": "4de37adae41d6c1b98d0f6ce4b4f99bd58c8aa73",
+      "sha256": "b9a3ffa1132e678c8ff79e67a436fc4963f31ca484c777d7178e30bfed0db380"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/StockLedger.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/StockLedger.java",
+      "git_blob": "8fdf6eed62562cfbb04b2f8e81f4b5ef8cbe0f89",
+      "sha256": "2618dbf46a1d90b16e27eedcbbc96ab061ff04ed52696e95313c8358243a72b2"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/TradeModules.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/TradeModules.java",
+      "git_blob": "d4b1cab17954a85ff3b2663744a3262f67b9af38",
+      "sha256": "deb09d03544d866de4fa63c061d0a856fdea97ded1a113abde0c53da7f1e47be"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/UniversalLookup.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/UniversalLookup.java",
+      "git_blob": "09650859d7ab3a9014a900027571466893a3f20f",
+      "sha256": "b19cbd281d9a7842377afcde90efa6517996f23607be039aac2afa5360610f0e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/UnlockActivity.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/UnlockActivity.java",
+      "git_blob": "cee1183c56312997e7f3a14cf04219121541d33b",
+      "sha256": "568bf0805abb45f33448758c8f59af3245f5ec5a4b4e6360e3e4eaf345ed867e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/java/com/accubook/crm/WorkspaceStore.java",
+      "destination": "android/app/src/main/java/com/accubook/crm/WorkspaceStore.java",
+      "git_blob": "869a1afe0ba1c6e3ab64191c9638d20adc13d414",
+      "sha256": "a186eebb6aa739bb61f713a8a47c59f34a8fa922f0cd845e27975e7de843cb11"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/res/drawable-nodpi/accubook_business_leaf.png",
+      "destination": "android/app/src/main/res/drawable-nodpi/accubook_business_leaf.png",
+      "git_blob": "3e35355337d684dd6e8b7f9f83eab76cc1bc49a7",
+      "sha256": "a061d6f2521eb659d9a34895be742a559fd1688b4b55a3c654196c30233da9e3"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/main/res/drawable-nodpi/accubook_launcher.png",
+      "destination": "android/app/src/main/res/drawable-nodpi/accubook_launcher.png",
+      "git_blob": "12605e31b43ef8704e00d004a725be9c96ac16b4",
+      "sha256": "12b7f6f1934ea852a54e4c643d8a8d22e40c325dd9236b2d3e37fc8f9733516e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/AnnotationRecordsSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/AnnotationRecordsSmoke.java",
+      "git_blob": "fa3c3d6ab6dc5f50e64bd6836c734ae6577300d7",
+      "sha256": "7a2773fd345a58482582fe4e1f08f672a07723cb20f0c47cf4561fd61a5f9569"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/BackupArchiveSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/BackupArchiveSmoke.java",
+      "git_blob": "b2130e62c2b9ad08d2892c66ce2d2c6017fef5a0",
+      "sha256": "f81ed1594486ae842420c1302c9f1315ce8c53b96c959d978a3cd66cf8158e79"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/BusinessSetupProfileSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/BusinessSetupProfileSmoke.java",
+      "git_blob": "a82380aacbb3ee0920269f6d36cfea90475584d6",
+      "sha256": "83b1a3dd2934d7e94074edb3fd3aab5e314870484f28888eebf2d20aff6377b9"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/CatalogSuggestionsSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/CatalogSuggestionsSmoke.java",
+      "git_blob": "18802e78107529c69921fb9b88da65d3f7044624",
+      "sha256": "a7546b5143d616d57de8eea307d3b2746ee0e75f0b615734f728b486a2759a6e"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/ChangeOrderProofSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/ChangeOrderProofSmoke.java",
+      "git_blob": "b7ae9fc67ea4c3f3f6d465eeeb772639e038966e",
+      "sha256": "89b50c02b7e38187f2d70387c9376e2b2d95051dd2ae791301b0c0d2ae48f487"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/CsvCodecSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/CsvCodecSmoke.java",
+      "git_blob": "dae3af16094afece8bf614fbcdbc2fb23b994d8a",
+      "sha256": "1f23c34bfae0501a5bd7efc1224018f9dcf3bed1f34325326795003e6df3cea6"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/FieldOrderingSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/FieldOrderingSmoke.java",
+      "git_blob": "a2260d201abba22da3b7960059039986b57824b5",
+      "sha256": "7f4bd57bc41c11f6867198e9856004cf181d4b8c94a7e961a0e8664a6a8a8cf2"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/InvoiceLineOrderingSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/InvoiceLineOrderingSmoke.java",
+      "git_blob": "cb989d8b2a9c4394f74dba0dc1efd940009ad1d1",
+      "sha256": "e0a8ec78c46fe1694c7dfd4f4cb348e4704de35f0b3c4efb84adfb2aa0868248"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/LegacyContactsCsvSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/LegacyContactsCsvSmoke.java",
+      "git_blob": "7c24e14595f4351b7b662ef878a2208b40329e3a",
+      "sha256": "23cc75c5483c591ceb8d4681f9a4396897433d252e00057cfa06f8a352424611"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/PhotoOrderingSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/PhotoOrderingSmoke.java",
+      "git_blob": "d1571bbdf41c234510801e574f3a211c5ceb1c1c",
+      "sha256": "71790e5f53b245ebc2099778d0c6a1b2c54f9e82c24a35531c5d3141732621a1"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/PricingEngineSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/PricingEngineSmoke.java",
+      "git_blob": "b295a70c80161450a99b1614df3012f0c5d14f0b",
+      "sha256": "126128936a4efe443fffd53cbdf38c8a0f18c08d48a717cf18d9ccd88f9a37a2"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/ReportSelectionSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/ReportSelectionSmoke.java",
+      "git_blob": "d11b377ff9cb9bde0cbe753b75080f60eaad072d",
+      "sha256": "6cd5b599487e72f52e690828e1910062c6957b5f7ccfb1cd37ca7ba75a0c55b6"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/SearchTermsSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/SearchTermsSmoke.java",
+      "git_blob": "cb7fd8d81dc789bc9f9be5c8554a9a6efde3f21a",
+      "sha256": "f6ad7cf8b905d66fbb96729f91d7ff5ccffad6eb376d2ed13af9e06b9bc2e942"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/SecureArchiveSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/SecureArchiveSmoke.java",
+      "git_blob": "b5d63aa9c7cc334c1549d19032f941fe5039462c",
+      "sha256": "3a6db1251e9aa9549919f6900252837f75c609fb41af1fe5aa064a3d881925e2"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/ServiceIntervalsSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/ServiceIntervalsSmoke.java",
+      "git_blob": "110e1feecdf31f6ce5cffc43f219a5e923cef56b",
+      "sha256": "5eaa881b03e5e6be4f58d0104b40b82bc7cf1bc54cc3996ac6d10e0ca58331a9"
+    },
+    {
+      "source": "experiments/accubook/android/app/src/test/java/com/accubook/crm/StockLedgerSmoke.java",
+      "destination": "android/app/src/test/java/com/accubook/crm/StockLedgerSmoke.java",
+      "git_blob": "58c715a4ef83309f2350114c278f674657f27d06",
+      "sha256": "75d35c0f9488e4a91d595687bf585ed6266375c2882420dbfe3281ce343ef7f4"
+    },
+    {
+      "source": "experiments/accubook/android/build.gradle",
+      "destination": "android/build.gradle",
+      "git_blob": "ccfe716be26540803e3d162c8fdbd6921ef45d81",
+      "sha256": "4b08d3c261d317db5e5a5f7fa8ade50f361690e3b03fa86ee69a678f2a4b3a37"
+    },
+    {
+      "source": "experiments/accubook/android/gradle.properties",
+      "destination": "android/gradle.properties",
+      "git_blob": "3c5e11311bd5f328c2ef0eef1cf06eda2eaf7eae",
+      "sha256": "4d4c82226865844bdc85391d907a383da4a35d3a3f5348985d5ec3997ab932fe"
+    },
+    {
+      "source": "experiments/accubook/android/scripts/emulator-smoke.sh",
+      "destination": "android/scripts/emulator-smoke.sh",
+      "git_blob": "c0a80ba7ecb46bf40df80dea085774b606099def",
+      "sha256": "2cce7baed4c6f311d0b57b0d8f152490d3786d0730b6b67c6ee3774a9f63c78e"
+    },
+    {
+      "source": "experiments/accubook/android/settings.gradle",
+      "destination": "android/settings.gradle",
+      "git_blob": "4f97b939dfb1be5aeceb3eac37f07d166eaa49f3",
+      "sha256": "aaabfab69e6660c1a2d137ed2ea8e632496c005fc0207ea8e9b1b119944d5275"
+    }
+  ]
+}
