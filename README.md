@@ -52,7 +52,16 @@ For an immediate local test:
     python3 -m unittest discover -s tests -p "test_feature_signals.py" -v
     python3 tools/feature_signals.py --input research/synthetic_feedback.jsonl --out /tmp/accubook-research.json
 
-**Implementation boundary:** This repository currently contains the Python workspace foundation, schemas, and research tooling. The Android interface and its device-specific UI regressions are not implemented here; do not mistake pipeline tests for a verified APK.
+## Android application
+
+The native Android implementation is now in [`android/`](android/README.md), imported
+from Broccoli Core PR #96 with private annotations, touch-first photo reordering,
+onboarding, inventory and the existing CRM workflows. See the
+[import provenance and validation guide](docs/ANDROID_IMPORT.md).
+
+The Android debug APK and emulator workflows build/test this repository directly.
+The Python foundation and research tooling remain separate components; shared data
+compatibility and production release acceptance are not implied by the import.
 
 ## License
 
