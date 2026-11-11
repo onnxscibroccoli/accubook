@@ -1,5 +1,8 @@
 # Accubook
 
+
+> **For technical reviewers:** [Source-linked capability evidence, executable checks and current limitations](docs/PORTFOLIO_READINESS.md) · [prioritized remediation issue](https://github.com/onnxscibroccoli/accubook/issues/3). This is an experimental/software evidence portfolio, not an attestation of production operation or employment history.
+
 Open-source, local-first CRM for trades and sole proprietorships.
 
 Designed so the person on the truck and the person in the office can do their work without friction, admin gates, or subscription lock-in.
