@@ -36,7 +36,8 @@ def verify(apk: Path, checksum_file: Path, gradle: Path, source_sha: str,
         bad_member = package.testzip()
         if bad_member is not None:
             raise ValueError(f"APK archive CRC mismatch: {bad_member}")
-    digest = hashlib.file_digest(apk.open("rb"), "sha256").hexdigest()
+    with apk.open("rb") as apk_stream:
+        digest = hashlib.file_digest(apk_stream, "sha256").hexdigest()
     lines = checksum_file.read_text(encoding="utf-8").splitlines()
     if len(lines) != 1:
         raise ValueError("checksum file must contain exactly one entry")
